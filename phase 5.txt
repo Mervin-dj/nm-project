@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio - Mervin raj d.j</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #232a35;
+      color: #c8d6e5;
+    }
+    .sidebar {
+      width: 180px;
+      height: 100vh;
+      background: #273142;
+      position: fixed;
+      left: 0;
+      top: 0;
+      display: flex;
+      flex-direction: column;
+      padding: 30px 0 0 0;
+    }
+    .sidebar h2 {
+      color: #e5eaf5;
+      padding-left: 25px;
+      font-size: 22px;
+      margin-bottom: 40px;
+    }
+    .sidebar nav {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      padding-left: 30px;
+    }
+    .sidebar nav a {
+      color: #c8d6e5;
+      text-decoration: none;
+      font-size: 17px;
+      transition: color 0.2s;
+    }
+    .sidebar nav a:hover {
+      color: #3498db;
+    }
+    .main-content {
+      margin-left: 210px;
+      padding: 48px 36px;
+    }
+    .main-content h1 {
+      font-size: 32px;
+      font-weight: bold;
+      margin: 0 0 10px 0;
+      color: #fff;
+    }
+    .subtitle {
+      color: #b2becd;
+      font-size: 16px;
+      margin-bottom: 6px;
+    }
+    .tags {
+      margin: 22px 0 30px 0;
+      display: flex;
+      gap: 14px;
+    }
+    .tag {
+      padding: 7px 18px;
+      background: #3291ff;
+      color: #fff;
+      border-radius: 18px;
+      font-size: 15px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      opacity: 0.92;
+    }
+    .projects {
+      display: flex;
+      gap: 40px;
+      margin-top: 16px;
+    }
+    .project-card {
+      background: #29344a;
+      padding: 28px 26px 26px 26px;
+      border-radius: 16px;
+      box-shadow: 0 4px 25px rgba(30,50,90,.08);
+      width: 340px;
+      display: flex;
+      flex-direction: column;
+    }
+    .project-card h3 {
+      color: #81ecec;
+      font-size: 17px;
+      margin: 0 0 12px 0;
+    }
+    .project-card p {
+      font-size: 15px;
+      color: #c8d6e5;
+      margin-bottom: 20px;
+    }
+    .project-card .btn {
+      padding: 8px 20px;
+      background: #3291ff;
+      color: #fff;
+      border: none;
+      border-radius: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 15px;
+      text-align: center;
+      transition: background 0.2s;
+    }
+    .project-card .btn:hover {
+      background: #2276d3;
+    }
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+    <h2>Portfolio</h2>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Projects</a>
+      <a href="#">Blog</a>
+      <a href="#">Contact</a>
+    </nav>
+  </div>
+  <div class="main-content">
+    <h1>Hello, I'm Mervin raj d.j</h1>
+    <div class="subtitle">Web Developer • UI/UX Enthusiast</div>
+    <div class="subtitle">
+      Passionate about building responsive web applications<br>
+      and sleek user experiences.
+    </div>
+    <div class="tags">
+      <span class="tag">HTML</span>
+      <span class="tag">CSS</span>
+      <span class="tag">JS</span>
+      <span class="tag">React</span>
+      <span class="tag">Node.js</span>
+      <span class="tag">UI Design</span>
+    </div>
+    <div class="projects">
+      <div class="project-card">
+        <h3>Emotion Recognition System for Data Science</h3>
+        <p>Built an AI-powered solution to detect human emotions in real time. Uses Python, deep learning, and scalable APIs.</p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+      <div class="project-card">
+        <h3>Blog Platform UI Design</h3>
+        <p>Designed a modern blogging platform focused on clean layouts, usability, and responsive design.</p>
+        <a href="#" class="btn">View Code</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
